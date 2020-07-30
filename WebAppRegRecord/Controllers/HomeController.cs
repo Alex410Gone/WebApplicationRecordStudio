@@ -18,7 +18,7 @@ namespace WebAppRegRecord.Controllers
             return View();
         }
 
-        public ActionResult Shop()
+        public ActionResult Studio()
         {
             return View();
         }
