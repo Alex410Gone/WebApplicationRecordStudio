@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppRegRecord", "WebAppRegRecord\WebAppRegRecord.csproj", "{C84DAC68-A501-47A7-9855-D37DA8296AEE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesktopAppViewRecord", "DesktopAppViewRecord\DesktopAppViewRecord.csproj", "{474B362C-EF52-40A2-B2A5-CDED0111ECDC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C84DAC68-A501-47A7-9855-D37DA8296AEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C84DAC68-A501-47A7-9855-D37DA8296AEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C84DAC68-A501-47A7-9855-D37DA8296AEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{474B362C-EF52-40A2-B2A5-CDED0111ECDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{474B362C-EF52-40A2-B2A5-CDED0111ECDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{474B362C-EF52-40A2-B2A5-CDED0111ECDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{474B362C-EF52-40A2-B2A5-CDED0111ECDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

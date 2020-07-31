@@ -1,4 +1,8 @@
-﻿body {
+﻿html {
+    scroll-behavior: smooth;
+}
+
+body {
     background-color: black;
     margin: 0;
 }
@@ -139,24 +143,10 @@ ul {
     margin-right: auto;
 }
 
-/* table home */
-
 table{
     width:500px;
     margin:auto;
     border-spacing:0px;
-}
-
-th {
-    font-weight: normal;
-    border-bottom: 3px solid #58bcff;
-    color: #58bcff;
-    padding: 12px 24px;
-}
-
-td {
-    color: #57b3c7;
-    padding: 15px 24px;
 }
 
 /* about */
@@ -199,6 +189,7 @@ td {
 
 .studio table {
     height: 100%;
+    padding:20px;
 }
 
 .studio td {
@@ -228,6 +219,12 @@ td {
 
 .studio hr {
     background-color: black;
+}
+
+.studio button {
+    outline: none;
+    border: 0;
+    background-color: transparent;
 }
 
 /* contact */
@@ -307,7 +304,68 @@ td {
     transform: scale(1.05);
 }
 
+/* form*/
 
+.form{
+    display:none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.decor {
+    position: relative;
+    max-width: 800px;
+    margin: 50px auto 0;
+    background: white;
+    border-radius: 30px;
+}
+
+.form-inner {
+    padding: 50px;
+}
+
+.form-inner input,
+.form-inner textarea {
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    background: #E9EFF6;
+    line-height: 40px;
+    border-width: 0;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-inner input[type="submit"] {
+    margin-top: 30px;
+    background: #2f96db;
+    border-bottom: 4px solid #1d76d8;
+    color: white;
+    font-size: 14px;
+}
+
+.form-inner textarea {
+    resize: none;
+}
+
+.form-inner h3 {
+    text-align:center;
+    margin-top: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: black;
+}
+
+.form-inner p{
+    font-size:18px;
+    margin-top:20px;
+    margin-bottom:0px;
+    text-align:center;
+}
 
 /* footer */
 

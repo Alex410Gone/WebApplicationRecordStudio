@@ -1,52 +1,82 @@
-﻿
-@{
+﻿@{
     ViewBag.Title = "Record Studio";
 }
 
-<div class="studio">
-    <table>
-        <tr>
-            <td>
-                <a href="/Home/">
-                    <div>
-                        <img src="~/Content/img/img_1.jpg" />
-                        <hr />
-                        <p>Написание минусовок</p>
-                        <hr />
-                    </div>
-                </a>
-            </td>
-            <td>
-                <a href="/Home/">
-                    <div>
-                        <img src="~/Content/img/img_2.jpg" />
-                        <hr />
-                        <p>Мастеринг</p>
-                        <hr />
-                    </div>
-                </a>
-            </td>
-            <td>
-                <a href="/Home/">
-                    <div>
-                        <img src="~/Content/img/img_3.jpg" />
-                        <hr />
-                        <p>Сведение</p>
-                        <hr />
-                    </div>
-                </a>
-            </td>
-            <td>
-                <a href="/Home/">
-                    <div>
-                        <img src="~/Content/img/img_4.jpg" />
-                        <hr />
-                        <p>Запись</p>
-                        <hr />
-                    </div>
-                </a>
-            </td>
-        </tr>
-    </table>
-</div>
+    <div class="studio">
+        <table>
+            <tr>
+                <td>
+                    <form action="#form">
+                        <button onmousedown="viewDiv()">
+                            <div>
+                                <img src="~/Content/img/img_1.jpg" />
+                                <hr />
+                                <p>Написание минусовок</p>
+                                <hr />
+                            </div>
+                        </button>
+                    </form>
+                </td>
+
+                <td>
+                    <form action="#form">
+                        <button onmousedown="viewDiv()">
+                            <div>
+                                <img src="~/Content/img/img_2.jpg" />
+                                <hr />
+                                <p>Мастеринг</p>
+                                <hr />
+                            </div>
+                        </button>
+                    </form> 
+                </td>
+
+                <td>
+                    <form action="#form">
+                        <button onmousedown="viewDiv()">
+                            <div>
+                                <img src="~/Content/img/img_3.jpg" />
+                                <hr />
+                                <p>Сведение</p>
+                                <hr />
+                            </div>
+                        </button>
+                    </form>
+                </td>
+
+                <td>
+                    <form action="#form">
+                        <button onmousedown="viewDiv()">
+                            <div>
+                                <img src="~/Content/img/img_4.jpg" />
+                                <hr />
+                                <p>Запись</p>
+                                <hr />
+                            </div>
+                        </button>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+    <div id="form">
+        <form class="decor">
+            <div class="form-left-decoration"></div>
+            <div class="form-right-decoration"></div>
+            <div class="circle"></div>
+            <div class="form-inner">
+                <h3>Забронировать время</h3>
+                <input type="text" placeholder="Имя и Фамилия">
+                <input type="tel" placeholder="Телефон">
+                <input type="email" placeholder="Email">
+                <input type="date" placeholder="Время">
+                <textarea placeholder="Комментарий..." rows="3"></textarea>
+                <input type="submit" value="Отправить">
+                <p>После отправления запроса, наша студия свяжется с вами!</p>
+            </div>
+        </form>
+    </div>
+        
 
